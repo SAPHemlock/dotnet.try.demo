@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Git\\dotnet.try.demo\\Snippets\\Snippets.csproj": {}
+  },
+  "projects": {
+    "D:\\Git\\dotnet.try.demo\\Snippets\\Snippets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Git\\dotnet.try.demo\\Snippets\\Snippets.csproj",
+        "projectName": "Snippets",
+        "projectPath": "D:\\Git\\dotnet.try.demo\\Snippets\\Snippets.csproj",
+        "packagesPath": "C:\\Users\\sanpat\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\dotnet.try.demo\\Snippets\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\Git\\dotnet.try.demo\\Snippets\\NuGet.Config",
+          "C:\\Users\\sanpat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "System.CommandLine.DragonFruit": {
+              "target": "Package",
+              "version": "[0.3.0-alpha.19317.1, )"
+            },
+            "System.CommandLine.Experimental": {
+              "target": "Package",
+              "version": "[0.3.0-alpha.19317.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

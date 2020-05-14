@@ -57,6 +57,10 @@ namespace Snippets
         public static void Run3()
         {
             #region run3
+
+            var primes = String.Format("Prime numbers less than 10: {0}, {1}, {2}, {3}", 2, 3, 5, 7);
+            Console.WriteLine(primes);
+
             #endregion
         }
     }

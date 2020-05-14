@@ -98,7 +98,8 @@ Console.WriteLine(primes);
 
 3. Update this markdown file (`QuickStart.md`) and add a new code fence that references the code in the `run3` region inside the `Program.Run3` method. 
 
-***Add your code fence here.***
+```csharp --source-file ./Snippets/Program.cs --project ./Snippets/Snippets.csproj --region run3
+```
 
 4. Refresh the browser.
 
